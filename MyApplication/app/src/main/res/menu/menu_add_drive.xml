@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Drive_Add_Activity">
+    >
+    <item
+        android:id="@+id/finish_item"
+        android:title="取消"
+        app:showAsAction="always"
+        android:onClick="clickMenuItem" />
+
+</menu>

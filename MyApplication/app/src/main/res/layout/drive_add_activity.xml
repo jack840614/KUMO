@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/dropbox"
+        android:background="@drawable/dropboxdrive"
+        android:layout_above="@+id/googledrive"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/dropbox"
+        android:layout_toEndOf="@+id/dropbox"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="登入狀態"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/drboo"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView8"
+        android:layout_toEndOf="@+id/dropbox"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/googledrive"
+        android:background="@drawable/googledrive"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/dropbox" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/googledrive"
+        android:layout_toEndOf="@+id/dropbox"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="登入狀態"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/goboo"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView9"
+        android:layout_toEndOf="@+id/dropbox"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/owncloud"
+        android:background="@drawable/owncloud"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp"
+        android:layout_below="@+id/googledrive"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView12"
+        android:layout_alignTop="@+id/owncloud"
+        android:layout_toEndOf="@+id/dropbox"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="登入狀態"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/owboo"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView12"
+        android:layout_toEndOf="@+id/dropbox"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

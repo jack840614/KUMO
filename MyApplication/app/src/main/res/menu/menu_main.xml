@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Content_Fragment">
+
+    <!-- 為選單項目加入「android:onClick」設定 -->
+
+
+
+</menu>

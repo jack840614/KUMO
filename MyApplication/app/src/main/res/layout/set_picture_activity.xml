@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="自動備份"
+            android:id="@+id/textView10"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="上傳相片"
+            android:id="@+id/textView14"
+            android:layout_margin="15dp"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:id="@+id/relativeLayout2"
+            android:clickable="false"
+            android:onClick="function" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="透過Wi-Fi網路或行動數據網路"
+                android:id="@+id/textView11"
+                android:textColor="#000000"
+                android:alpha="87"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView8"
+                android:background="@drawable/status"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="15dp"
+            android:id="@+id/relativeLayout3" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="僅透過Wi-Fi網路"
+                android:id="@+id/textView13"
+                android:alpha="87"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView9"
+                android:background="@drawable/status"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="上傳影片"
+            android:id="@+id/textView15"
+            android:layout_margin="15dp"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:id="@+id/relativeLayout4"
+            android:clickable="false"
+            android:onClick="function" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="透過Wi-Fi網路或行動數據網路"
+                android:id="@+id/textView16"
+                android:textColor="#000000"
+                android:alpha="87"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView10"
+                android:background="@drawable/status"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="15dp"
+            android:id="@+id/relativeLayout5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="僅透過Wi-Fi網路"
+                android:id="@+id/textView17"
+                android:alpha="87"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView11"
+                android:background="@drawable/status"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

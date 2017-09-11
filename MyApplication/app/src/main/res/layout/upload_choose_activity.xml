@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="上傳雲端選擇"
+        android:id="@+id/textView"
+        android:layout_marginBottom="10dp"
+        android:textSize="24dp"
+        android:textColor="#000000" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView2"
+        android:layout_below="@+id/textView"
+        android:background="#ffffff"
+        android:divider="#ffffff" />
+
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="36dp"
+        android:text="確定"
+        android:id="@+id/ok"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_style"
+        android:textColor="#1e72e7"
+        android:textSize="13dp"
+        android:layout_below="@+id/listView2"
+        android:onClick="click" />
+
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="36dp"
+        android:text="取消"
+        android:id="@+id/off"
+        android:layout_alignTop="@+id/ok"
+        android:layout_toLeftOf="@+id/ok"
+        android:background="@drawable/button_style"
+        android:textColor="#1e72e7"
+        android:textSize="13dp"
+        android:onClick="click" />
+
+</RelativeLayout>

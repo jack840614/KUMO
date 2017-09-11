@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KUMO</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="content">
+        <item>全部檔案</item>
+        <item>篩選類型</item>
+        <item>設定</item>
+    </string-array>
+
+    <string name="demo_loadmore">Loading</string>
+    <string name="nomoredata">no data any more</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>
